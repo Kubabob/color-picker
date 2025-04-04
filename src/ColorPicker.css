@@ -1,0 +1,36 @@
+:root {
+    background-color: #f4f4f4;
+  }
+  
+  .color-picker {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  h1 {
+    margin: 2rem auto 2rem auto;
+  }
+  
+  .color-list {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  .color-item {
+    display: flex;
+    width: 100px;
+    height: 100px;
+    justify-content: center;
+    border-radius: 15%;
+  }
+  
+  .color-code {
+    color: #ffffff;
+    align-self: center;
+    font-weight: 600;
+    text-shadow: 2px 2px 2px rgba(36, 36, 36, 0.59);
+  }
+  
+  .focused {
+    box-shadow: inset -5px -5px rgba(42, 42, 42, 0.58);
+  }
